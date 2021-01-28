@@ -4,7 +4,7 @@
     <data-source source="LOCAL" name="MySQL - userdb@localhost" uuid="e5e324d9-ea74-4d2a-ac3f-1c9c84ba5f4a">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
-      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://localhost:3306/userdb?autoReconnect=true&amp;useSSL=false&amp;useLegacyDatetimeCode=false&amp;serverTimezone=UTC</jdbc-url>
     </data-source>
   </component>
